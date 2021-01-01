@@ -27,7 +27,9 @@ function App() {
   return (
     <div className="App">
     <div>
-      <img style={{float: "left", margin: "10px", width: "30px"}} src={replayArrow} />
+      <a href="/">
+        <img style={{float: "left", width: "30px"}} src={replayArrow} />
+      </a>
     </div>
       <header className="App-header">
       <MuiThemeProvider theme={theme}>
