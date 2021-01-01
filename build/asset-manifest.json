@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/retirement-calculator/static/css/main.8079796b.chunk.css",
+    "main.js": "/retirement-calculator/static/js/main.6134d92e.chunk.js",
+    "main.js.map": "/retirement-calculator/static/js/main.6134d92e.chunk.js.map",
+    "runtime-main.js": "/retirement-calculator/static/js/runtime-main.4d4e36dc.js",
+    "runtime-main.js.map": "/retirement-calculator/static/js/runtime-main.4d4e36dc.js.map",
+    "static/css/2.16c3adba.chunk.css": "/retirement-calculator/static/css/2.16c3adba.chunk.css",
+    "static/js/2.e95264da.chunk.js": "/retirement-calculator/static/js/2.e95264da.chunk.js",
+    "static/js/2.e95264da.chunk.js.map": "/retirement-calculator/static/js/2.e95264da.chunk.js.map",
+    "static/js/3.d75de7d8.chunk.js": "/retirement-calculator/static/js/3.d75de7d8.chunk.js",
+    "static/js/3.d75de7d8.chunk.js.map": "/retirement-calculator/static/js/3.d75de7d8.chunk.js.map",
+    "index.html": "/retirement-calculator/index.html",
+    "static/css/2.16c3adba.chunk.css.map": "/retirement-calculator/static/css/2.16c3adba.chunk.css.map",
+    "static/css/main.8079796b.chunk.css.map": "/retirement-calculator/static/css/main.8079796b.chunk.css.map",
+    "static/js/2.e95264da.chunk.js.LICENSE.txt": "/retirement-calculator/static/js/2.e95264da.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/retirement-calculator/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4d4e36dc.js",
+    "static/css/2.16c3adba.chunk.css",
+    "static/js/2.e95264da.chunk.js",
+    "static/css/main.8079796b.chunk.css",
+    "static/js/main.6134d92e.chunk.js"
+  ]
+}
