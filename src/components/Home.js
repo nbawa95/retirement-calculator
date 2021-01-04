@@ -32,7 +32,7 @@ class Home extends Component {
           showExpectedSavings: false,
           showDesiredRetirementAmount: false,
           currentSavings: 0,
-          compoundRate: 0.08,
+          compoundRate: 8,
           expectedSavings: 0,
           desiredRetirementAmount: 0,
           yearsToRetire: 0,
