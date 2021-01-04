@@ -4,6 +4,8 @@ import Home from "./components/Home.js";
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 import replayArrow from "./replay-arrow.png";
 
+const LOCATION = window.location;
+
 const theme = createMuiTheme({
   typography: {
     // Use the system font instead of the default Roboto font.
@@ -27,7 +29,7 @@ function App() {
   return (
     <div className="App">
     <div>
-      <a href="/">
+      <a href={LOCATION}>
         <img style={{float: "left", width: "30px"}} src={replayArrow} />
       </a>
     </div>
