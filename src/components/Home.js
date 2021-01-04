@@ -48,7 +48,6 @@ class Home extends Component {
         this.handleKeyDownExpectedSavings = this.handleKeyDownExpectedSavings.bind(this);
         this.desiredRetirementAmountDone = this.desiredRetirementAmountDone.bind(this);
         this.handleKeyDownDesiredRetirementAmount = this.handleKeyDownDesiredRetirementAmount.bind(this);
-        this.calculate = this.calculate.bind(this);
         this.readyToShowFinal = this.readyToShowFinal.bind(this);
     }
 
@@ -122,7 +121,6 @@ class Home extends Component {
         console.log(this.state.compoundRate);
         this.setState({
           desiredRetirementAmount: e.target.value,
-          yearsToRetire: this.calculate(this.state.currentAmount, this.state.compoundRate, this.state.desiredAmount),
           readyToCalc: true
         });
       }
@@ -153,11 +151,6 @@ class Home extends Component {
       .catch(error => {
         console.error('Error:', error);
       });
-    }
-
-    calculate(currentAmount, compoundRate, desiredAmount) {
-      var total = (desiredAmount / compoundRate) - currentAmount - 1;
-      return Math.sqrt(total);
     }
 
     render() {
@@ -302,7 +295,7 @@ class Home extends Component {
                 cursor={{show: false}}
                 avgTypingDelay={20}
               >
-               <div className="textLine">if you start with ${this.state.currentSavings} and invest ${this.state.expectedSavings} every year with a compound rate of {this.state.compoundRate}%, you will be able to retire in {this.state.yearsToRetire.toString()} years and withdraw ${this.state.desiredRetirementAmount} each year in your retirement.</div>
+               <div className="textLine">if you start with ${this.state.currentSavings} and invest ${this.state.expectedSavings} every year with a compound rate of {this.state.compoundRate.toString()}%, you will be able to retire in {this.state.yearsToRetire.toString()} years and withdraw ${this.state.desiredRetirementAmount} each year in your retirement.</div>
               </Typist>
               : null }
             </div>
